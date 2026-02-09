@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LITHIN RAJ A | GitHub Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: #0f172a; color: #e5e7eb; line-height: 1.6; }
+    a { color: #38bdf8; text-decoration: none; }
+
+    header {
+      padding: 4rem 2rem;
+      text-align: center;
+      background: linear-gradient(135deg, #020617, #0f172a);
+    }
+    header h1 { font-size: 2.8rem; font-weight: 600; }
+    header p { margin-top: 0.5rem; color: #94a3b8; }
+
+    section {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+    }
+
+    .card {
+      background: #020617;
+      border-radius: 16px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      font-size: 1.6rem;
+      color: #38bdf8;
+    }
+
+    ul { list-style: none; }
+    ul li::before { content: "▹"; color: #38bdf8; margin-right: 8px; }
+
+    .skills span {
+      display: inline-block;
+      background: #1e293b;
+      padding: 0.4rem 0.8rem;
+      border-radius: 999px;
+      margin: 0.3rem;
+      font-size: 0.85rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #64748b;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>LITHIN RAJ A</h1>
+    <p>Cloud Technology & Information Security Graduate</p>
+    <p>
+      <a href="https://github.com/yourusername">GitHub</a> ·
+      <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> ·
+      <a href="mailto:youremail@example.com">Email</a>
+    </p>
+  </header>
+
+  <section>
+    <div class="card">
+      <h2>About Me</h2>
+      <p>
+        I am a B.Tech graduate in Cloud Technology and Information Security with a strong
+        interest in building secure, scalable, and user-focused applications. I am
+        proficient in Python, experienced in editing and content presentation, and
+        capable of handling and guiding teams effectively to achieve project goals.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>Python</span>
+        <span>Cloud Computing</span>
+        <span>Information Security</span>
+        <span>Team Leadership</span>
+        <span>Editing & Content Creation</span>
+        <span>Git & GitHub</span>
+      </div>
+    </div>
+    </div>
+
+    <div class="card">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>FloatChat</strong> – AI Chat with Interactive Map for ARGO Ocean Data</li>
+        <li><strong>SkillChain</strong> – Frontend-only DApp interface</li>
+        <li><strong>Medibuddy</strong> – Smart healthcare assistant</li>
+        <li><strong>Machinery Error Sensor</strong> – Sensor-based system to detect machine faults</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Education</h2>
+      <p>B.Tech in Cloud Technology and Information Security</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 LITHIN RAJ A · Built for GitHub Pages
+  </footer>
+
+</body>
+</html>
